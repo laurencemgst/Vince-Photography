@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title> Gallery | Vince Photography </title>
+	<link rel="stylesheet" href="styleGallery.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;1,400&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+		<section class="header">
+
+			<nav>
+				<a href="index.html"><img src="Images/logo.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times-circle" onclick="hideMenu()"></i>
+					<ul>
+						<li> <a href="index.html">Home</a> </li>
+						<li> <a href="gallery.html">Gallery</a> </li>
+						<li> <a href="ContactUs.html">Contact</a>  </li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+
+		<div class="text-bpx">
+		
+		    <div class="heading">
+				<h3>Photo <span>Gallery</span></h3>
+			</div>
+			
+			<h1>Vince Photography</h1>
+			<p>Photographer</p>
+			<a href="https://www.facebook.com/vincegaray10/" class="hero-btn">Visit Us To Know More</a>
+		</div>
+
+		</section>
+
+	<div class="container">
+
+		<div class="box">
+	  
+			<div class="dream">
+				<img src="Gallery/FunShots/01.jpg">
+				<img src="Gallery/FunShots/02.jpg">
+				<img src="Gallery/FunShots/03.jpg">
+				<img src="Gallery/FunShots/04.jpg">
+				<img src="Gallery/FunShots/05.jpg">
+            
+			</div>
+
+			<div class="dream">
+				<img src="Gallery/FunShots/06.jpg">
+				<img src="Gallery/FunShots/07.jpg">
+				<img src="Gallery/FunShots/08.jpg">
+				<img src="Gallery/FunShots/09.jpg">
+				<img src="Gallery/FunShots/10.jpg">
+            
+			</div>
+
+			<div class="dream">
+				<img src="Gallery/FunShots/11.jpg">
+				<img src="Gallery/FunShots/12.jpg">
+				<img src="Gallery/FunShots/13.jpg">
+				<img src="Gallery/FunShots/14.jpg">
+				<img src="Gallery/FunShots/15.jpg">
+				<img src="Gallery/FunShots/16.jpg">
+				<img src="Gallery/FunShots/17.jpg">
+				<img src="Gallery/FunShots/18.jpg">
+
+			</div>
+
+		</div>
+	
+	
+		<div class="btn">
+			<a href="ContactUs.html">Contact Me</a>
+		</div>
+
+		<section class="footer">
+			<h4> Vince Photography </h4>
+			<div class="icons">
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-twitter"></i>
+			</div>
+			<p> Made with <i class="far fa-heart"></i> by Laurence </p>
+		</section>
+
+	</div>
+
+		<!--------Jvascript for menu bar in android size------->
+		<script>
+			var navLinks = document.getElementById("navLinks");
+			function showMenu() {
+				navLinks.style.right = "0";
+			}
+
+            function hideMenu() {
+                navLinks.style.right = "-300px";
+            }
+		</script>
+
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title> Welcome to Vince Photography! </title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;1,400&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<section class="header">
+
+		<nav>
+			<a href="index.html"><img src="Images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times-circle" onclick="hideMenu()"></i>
+				<ul>
+					<li> <a href="index.html">Home</a> </li>
+					<li> <a href="gallery.html">Gallery</a> </li>
+					<li> <a href="ContactUs.html">Contact</a>  </li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<div class="text-bpx">
+			<h1>Vince Photography</h1>
+			<p>Photographer</p>
+			<a href="https://www.facebook.com/vincegaray10/" class="hero-btn">Visit Us To Know More</a>
+		</div>
+	</section>
+
+	<section class="bodymain">
+	<img src="Images/logo.jpg">
+		<div class="about-me">
+			<h1>About Me</h1>
+			<p> Hi I'm a photographer based in Iriga City, Philippines. </p><br>
+			<p> I can shoot any kind of events with a low amount of price, I basically shoot and edit photos to you my clients and making sure that every picture has a wonderful moment.</p><br>
+			<p>It started as a hobby and never wish it to be a business. I am usually a Street Photographer and join for every competitions here, This camera that i am using is not for me actually it is a gift for my sisters graduation and as the time pass by she never use it again so i grab it and take some photo doing a YouTube video about photography stuff, attending seminars and today i am trying something new in my life that i can show a story every photo that i capture and never stop learning day by day to be an outstanding photographer.</p>
+		</div>
+	
+	</section>
+	
+	<section class="footer">
+		<h4> Vince Photography </h4>
+		<div class="icons">
+			<i class="fab fa-facebook"></i>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-twitter"></i>
+		</div>
+		<p> Made with <i class="far fa-heart"></i> by Laurence </p>
+	</section>
+
+
+	<!--------Jvascript for menu bar in android size------->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
+
+		function hideMenu() {
+			navLinks.style.right = "-300px";
+        }
+	</script>
+
+</body>
+
+</html>

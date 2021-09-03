@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title> Contact us | Vnce Photographer </title>
+	<link rel="stylesheet" href="styleContact.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;1,400&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+	<section class="header">
+
+		<nav>
+			<a href="index.html"><img src="Images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times-circle" onclick="hideMenu()"></i>
+				<ul>
+					<li> <a href="index.html">Home</a> </li>
+					<li> <a href="gallery.html">Gallery</a> </li>
+					<li> <a href="ContactUs.html">Contact</a>  </li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<div class="text-bpx">
+			<h1> Contact </h1>
+			<h1>Vince Photography</h1>
+			<p>Photographer</p>
+			<a href="https://www.facebook.com/vincegaray10/" class="hero-btn">Visit Us To Know More</a>
+		</div>
+
+	</section>
+
+	<div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Contact Us</h2>
+				<input type="text" class="field" placeholder="Your Name">
+				<input type="text" class="field" placeholder="Your Email">
+				<input type="text" class="field" placeholder="Phone">
+				<textarea placeholder="Message" class="field"></textarea>
+				<button class="btn">Send</button>
+			</div>
+		</div>
+	</div>
+	
+	<section class="footer">
+		<h4> Vince Photography </h4>
+		<div class="icons">
+			<i class="fab fa-facebook"></i>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-twitter"></i>
+		</div>
+		<p> Made with <i class="far fa-heart"></i> by Laurence </p>
+	</section>
+	
+	
+	<!--------Jvascript for menu bar in android size------->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
+
+		function hideMenu() {
+			navLinks.style.right = "-300px";
+		}
+	</script>
+	
+</body>
+</html>
